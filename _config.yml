@@ -1,0 +1,81 @@
+# 1. Site Settings (The Basics)
+# ---
+title: "[Gurion Ramapogu] | Data Science & AI Portfolio"
+email: gurion7007@gmail.com
+description: > # This description will appear in search engines and RSS feeds.
+  A professional portfolio showcasing data science projects, machine learning models, 
+  and analytical insights using Python, R, and cloud technologies.
+baseurl: "/Portfolio" # The subpath of your site, e.g. /blog
+url: "https://GurionRamapoguSajeevan.github.io" # The base hostname & protocol for your site
+repository: "GurionRamapoguSajeevan/Portfolio" # Your GitHub repository name
+lang: "en" # Site language
+
+# 2. Jekyll Build Settings
+# ---
+permalink: /:title/
+markdown: kramdown
+highlighter: rouge # Syntax highlighting for code snippets
+kramdown:
+  input: GFM # GitHub Flavored Markdown
+  syntax_highlighter: rouge
+
+# Exclude/Include files from the site build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/
+
+# 3. Theme & Plugins
+# ---
+# Using a clean, minimal theme. You can swap 'minimal' for 'cayman', 'primer', etc.
+remote_theme: "pages-themes/minimal@v0.2.0" 
+
+# Add plugins for enhanced functionality (e.g., SEO, sitemap)
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# 4. Navigation & Custom Defaults
+# ---
+# This sets up the links that will appear in your site's header navigation.
+# The `url` should match the filename (without .md) in your root directory.
+navigation:
+  - title: Home
+    url: /
+  - title: About
+    url: /about
+  - title: Projects
+    url: /projects
+  - title: Experience
+    url: /Experience
+  - title: Education
+    url: /Education
+  - title: Skills
+    url: /Skills
+  - title: Contact
+    url: /contact
+
+    
+# Use this to set a default layout for all pages.
+defaults:
+  - scope:
+      path: "" # An empty string here means all files in the project
+    values:
+      layout: "default" # Your main layout (Minimal theme provides 'default')
+
+# 5. Data Science / AI Specifics
+# ---
+# Social/Professional Links for easy sharing and contact
+social_links:
+  github: GurionRamapoguSajeevan # Add your full username
+  linkedin: rs-gurion # Add your LinkedIn profile handle
+  #kaggle: your-kaggle-username # Optional: Add Kaggle profile
+  #twitter: your-twitter-handle # Optional
+  
+# Configure jekyll-seo-tag for better metadata
+#logo: /assets/images/profile-photo.jpg # Path to your profile image for sharing previews
+
+# Customization hook for Minimal Theme (for custom CSS/head elements)
+head: |
+  <link rel="stylesheet" href="/assets/css/style.css">
