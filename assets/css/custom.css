@@ -1,0 +1,31 @@
+/* Make the navbar sticky */
+.navbar {
+  position: sticky;
+  top: 0;
+  background: white;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+  z-index: 1000;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #24292e;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+/* Avoid content hiding behind the navbar */
+.content {
+  padding-top: 10px;
+}
