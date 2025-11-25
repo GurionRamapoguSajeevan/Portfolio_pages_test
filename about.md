@@ -1,6 +1,7 @@
 ---
 layout: default
 title: About Me
+permalink: /about
 ---
 
 # 🧠 My Background
