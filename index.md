@@ -4,8 +4,6 @@ permalink: /
 title: Home
 ---
 
-[Home](/) | [About](/about) | [Projects](/projects) | [Experience](/Experience) | [Education](/Education) | [Skills](/Skills) | [Contact](/contact)
-
 # 👋 Welcome to My Data Science & AI Portfolio
 
 I'm **[Gurion Ramapogu]**, a Data Scientist specializing in **Deep Learning**, **NLP**, and **Cloud MLOps**.
