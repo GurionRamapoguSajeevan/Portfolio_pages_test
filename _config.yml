@@ -77,9 +77,9 @@ social_links:
 #logo: /assets/images/profile-photo.jpg # Path to your profile image for sharing previews
 
 # Customization hook for Minimal Theme (for custom CSS/head elements)
-head: |
+# head: |
 # <link rel="stylesheet" href="/assets/css/style.css">
-  <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
 
 include:
   - assets/css/custom.css
