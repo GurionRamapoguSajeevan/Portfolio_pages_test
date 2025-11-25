@@ -78,4 +78,11 @@ social_links:
 
 # Customization hook for Minimal Theme (for custom CSS/head elements)
 head: |
-  <link rel="stylesheet" href="/assets/css/style.css">
+# <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+
+include:
+  - assets/css/custom.css
+
+# <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+
