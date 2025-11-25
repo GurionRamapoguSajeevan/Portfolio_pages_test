@@ -4,7 +4,7 @@ permalink: /
 title: Home
 ---
 
-[Home](/) | [About](/about) | [Projects](/projects) | [Experience](/Experience) | [Education](/Education) | [Skills](/Skills) | [Contact](/contact)
+[Home](/) | [About](Portfolio_pages_test/about) | [Projects](/projects) | [Experience](/Experience) | [Education](/Education) | [Skills](/Skills) | [Contact](/contact)
 
 # 👋 Welcome to My Data Science & AI Portfolio
 
